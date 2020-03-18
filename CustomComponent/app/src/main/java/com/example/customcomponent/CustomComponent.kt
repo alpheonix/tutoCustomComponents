@@ -8,7 +8,7 @@ import android.widget.LinearLayout
 import android.widget.TextView
 
 
-class BenefitView(context: Context, attrs: AttributeSet): LinearLayout(context, attrs) {
+class CustomComponent(context: Context, attrs: AttributeSet): LinearLayout(context, attrs) {
 
     init {
         inflate(context, R.layout.custom_layout, this)
